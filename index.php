@@ -9,7 +9,31 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+    <!-- Files from loader -->
+    <!-- animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- owl carousel image slider api -->
+    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/loader_style.css">
+    <link rel="stylesheet" type="text/css" href="css/loader_style1.css">
+    <link rel="stylesheet" type="text/css" href="css/loader_tag.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+
+
+    <!-- END -->
+
     <!-- favicon-->
     <link rel="shortcut icon" href="img/favicon.png">
 
@@ -46,6 +70,48 @@
     
 </head>
 <body>
+
+
+
+
+
+
+
+
+    <div class="loader">
+            <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-466.4 259.6 280.2 47.3" enable-background="new -466.4 259.6 280.2 47.3" xml:space="preserve">
+                    <polyline class="animation"   points="-465.4,281 -436,281 -418.9,281 -423.9,281 -363.2,281 -355.2,269 -345.2,303 -335.2,263 -325.2,291 -319.2,281 -187.2,281 "></polyline>
+
+            </svg>
+            <div class="loader1">
+                <h1>Dr.Sang</h1>
+                </div>
+                <br>
+                <br>
+
+                <div class="content">
+                  <div class="content__container">
+                    <p class="content__container__text" style="font-weight: 600;font-size: 35px;    line-height: 40px;    color: #ecf0f1;">        
+                        Life
+                    </p>
+
+                    <ul class="content__container__list">
+                      <li class="content__container__list__item">Restarts !</li>
+                      <li class="content__container__list__item">Here !</li>
+                      <li class="content__container__list__item">Restarts !</li>
+                    <li class="content__container__list__item">Here !</li>
+
+                    </ul>
+                  </div>
+                </div>
+    </div>
+
+
+
+
+
+
+
 
     <nav class="navbar navbar-expand-md bg-tulip fixed-top nav-transparent ">
         <div class="container">
@@ -155,5 +221,11 @@
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     
     </body>
+
+    <script type="text/javascript">
+    setTimeout(()=>{
+        $('.loader').slideUp(1000);},7000);
+</script>
+
 </html>
            
