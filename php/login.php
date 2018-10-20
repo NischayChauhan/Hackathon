@@ -52,20 +52,19 @@ function test_input($data) {
    
     Individual
 
-    <form method="post" action="./login.php">  
+   <div class="form-group">
+        <form method="post" action="./login.php">  
 
-      <br>
-      
-      E-mail: <input type="text" name="email">
-      <span class="error">* <?php echo $emailErr;?></span>
-      <br><br>
-      
-      Password: <input type="password" name="password">
-      <span class="error">* <?php echo $passwordErr;?></span>
-      <br><br>
-      <input type="submit" name="submit" value="Submit">  
-    </form>
+          E-mail: <input type="text" name="email" class="form-control">
+          <span class="error">* <?php echo $emailErr;?></span>
+          <br><br>
 
+          Password: <input type="password" name="password" class="form-control">
+          <span class="error">* <?php echo $passwordErr;?></span>
+          <br><br>
+          <input type="submit" name="submit" value="Submit">  
+        </form>
+    </div>
 
 
     </body>

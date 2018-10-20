@@ -1,4 +1,4 @@
--- CREATE DATABASE hackathon;
+CREATE DATABASE hackathon;
 
 use hackathon;
 
