@@ -1,0 +1,14 @@
+CREATE DATABASE hackathon;
+
+use hackathon;
+
+CREATE TABLE Users (
+	id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
+	fullName VARCHAR(30) NOT NULL,
+	userName VARCHAR(50) NOT NULL,
+	password VARCHAR(50) NOT NULL,
+	phone VARCHAR(50) NOT NULL,
+	eMail VARCHAR(50) NOT NULL,
+	date TIMESTAMP
+);
+
